@@ -11,10 +11,6 @@ class Animal {
     emitirSom() {
         console.log(`${this.nome} faz um som indefinido.`);
     }
-
-    mover() {
-        console.log(`${this.nome} está se movendo.`);
-    }
 }
 
 
