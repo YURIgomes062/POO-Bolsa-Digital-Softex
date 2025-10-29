@@ -28,8 +28,7 @@ class Aluno_Academia {
         const diaNascimento = dataNascimento.getDate();
 
       
-        if (mesAtual < mesNascimento || 
-           (mesAtual === mesNascimento && diaAtual < diaNascimento)) {
+        if (mesAtual < mesNascimento || mesAtual === mesNascimento && diaAtual < diaNascimento) {
             
             idade--; 
         }
